@@ -1,5 +1,6 @@
 
 // Control daemonization and auto exit
+#define DEBUG 1
 #ifdef DEBUG
 //    #define DEBUG_SEND
 //    #define DAEMONIZE
