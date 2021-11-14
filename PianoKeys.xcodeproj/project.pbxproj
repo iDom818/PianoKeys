@@ -145,6 +145,7 @@
 			buildPhases = (
 				26F329D5146631E0006DE6D6 /* Sources */,
 				26F329D6146631E0006DE6D6 /* Frameworks */,
+				59186B43274178F0006A6D04 /* Copy Binary to /usr/local/bin */,
 			);
 			buildRules = (
 			);
@@ -169,6 +170,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 26F329CE146631E0006DE6D6;
@@ -180,6 +182,27 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59186B43274178F0006A6D04 /* Copy Binary to /usr/local/bin */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Binary to /usr/local/bin";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp $TARGET_BUILD_DIR/pianokeys /usr/local/bin\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		26F329D5146631E0006DE6D6 /* Sources */ = {
